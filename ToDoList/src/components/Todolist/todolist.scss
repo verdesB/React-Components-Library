@@ -1,0 +1,19 @@
+.todoList {
+    box-sizing: border-box;
+    //border: 1px solid white;
+    border-radius: 1rem;
+    padding: 3rem 3rem;
+    //background-color: rgba(255, 255, 255, 0.199);
+    //backdrop-filter: blur(2px);
+    //box-shadow:  -21px -21px 42px #d1ad7f,
+    //         21px 21px 42px #ebc38f;
+    box-shadow:  8px 8px 16px #bd9c73,
+             -8px -8px 16px #ffd49b;
+}
+ .todoList h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+   
+    
+ }

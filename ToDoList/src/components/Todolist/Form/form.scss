@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    width: 100%;
+    
+    
+    
+}
+.form input {
+    border-top: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-left: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-bottom: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-right: none;
+    height: 2rem;
+    width: 75%;
+    border-radius: 0.5rem 0 0 0.5rem ;
+    padding-left: 1rem;
+    box-shadow:  8px 8px 16px #bd9c73,
+             -8px -8px 16px #ffd49b;
+
+}
+.form button {
+    width: 25%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-top: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-right: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-bottom: 1px solid rgba(138, 216, 102, 0.589) ;
+    border-left: none;
+    background-color: rgba(138, 216, 102, 0.589) ;
+    box-shadow:  8px 8px 16px #bd9c73,
+             3px -8px 16px #ffd49b;
+   
+}

@@ -1,0 +1,17 @@
+@use 'reset-css';
+
+@font-face {
+    font-family: appleMac;
+    src: url(../../assets/SFNSText-Regular.otf);
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    font-family: appleMac;
+    
+}

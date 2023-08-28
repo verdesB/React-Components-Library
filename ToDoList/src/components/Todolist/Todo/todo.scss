@@ -1,0 +1,46 @@
+.item {
+box-sizing: border-box;
+//border: 1px solid rgba(138, 216, 102, 0.589) ;
+border-radius: 0.5rem;
+display: flex;
+
+justify-content: center;
+width: 100%;
+min-height: 3rem;
+
+background: #deb887;
+box-shadow:  8px 8px 16px #bd9c73,
+             -8px -8px 16px #ffd49b;
+ &__text {
+    display: flex;
+    align-items: center;
+    flex: 5;
+    padding-left: 0.5rem;
+ }
+ &__btn {
+    flex: 2;
+ }
+ &__btn button {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border: none;
+ }
+ &__btn button img {
+    width: 100%;
+ }
+ &__btn button:first-child {
+   background-color: rgba(255, 255, 255, 0);
+    background-image: url(../../../assets/modif.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ &__btn button:last-child {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../../../assets/moin.svg);
+
+ }
+}
+
